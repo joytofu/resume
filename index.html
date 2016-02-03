@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kcswag</title>
+	<!--fonts-->
+	<!--<link href='http://fonts.useso.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	--><!--//fonts-->
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/tooltip-classic.css" />
+	<link rel="stylesheet" type="text/css" href="css/button.css" />
+
+	<meta property="qc:admins" content="27606675676333717636" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+		<script src="js/jQuery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<div class="logo">
+				<a href="index.html"><img src="images/kcswag.png" alt=""/></a>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>首页</span></a></li>
+										<li><a class="scroll" href="#about"><span>关于</span></a></li>
+										<li><a class="scroll" href="#portfolio"><span>我的项目</span></a></li>
+										<li><a class="scroll" href="#contact"><span>联系我</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left">
+				<img src="images/1.png" alt=""/>
+			</div>
+			<div class="banner-right">
+				<h1>周健燊<span style="letter-spacing: 0">(Kinson Chow)</span></h1>
+				<div class="border"></div>
+				<h2>PHP攻城狮</h2>
+				<a href="#">下载我的简历</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>关于我</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>我叫周健燊，土生土长佛山人。爱折腾、爱思考、爱编程，苹果控、黑莓控，对新事物特别是科技产物异常感兴趣，于是自我修炼为程序猿。
+			自学意识高、学习能力强，做事耐心、细心，团队意识强，有责任心，有少许完美主义，遇到问题一定要想法设法去解决。
+			没有很远大的理想，只为财务自由、生活无忧，同时满足爱好，因此也没打算去大城市，
+			但相信家乡的日渐发展会给予我贡献力量的。平时只写代码不把妞，但偶尔会上一下twitter泡一下外国妞。
+			多年的墙外（GFW）生活使得我阅读英语文档毫不吃力，这对我的编程学习有莫大帮助！
+		</p>
+		<p style="text-align: center;color:chocolate">想对我有更多的了解，可通过以下社交媒体关注我↓</p>
+		<!--<ul style="font-size:50px;color:lightseagreen">
+			<li><a href="javascript:void(0)" onmouseover="$(this).tooltip()" data-toggle="tooltip"  data-html="true" data-placement="left" title="<img src='images/wechat_qrcode.png'>"><i class="fa fa-wechat"></i></a></li>
+			<li><a href="javascript:void(0)" onmouseover="$(this).popover()" data-toggle="popover" data-placement="bottom" data-content="KC_swag"><i class="fa fa-weibo"></i></a></li>
+			<li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="javascript:void(0)"><i class="fa fa-facebook-official"></i></a></li>
+			<li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
+		</ul>-->
+		<div style="font-size:50px;color:lightseagreen">
+<!--
+		<a href="javascript:void(0)" onmouseover="$(this).tooltip()" data-toggle="tooltip" data-placement="top" data-html="true" data-original-title="<img src='images/wechat_qrcode.png'/>"><i class="fa fa-wechat"></i></a>
+-->
+		<a href="javascript:void(0)" class="tooltip tooltip-effect-2">
+			<span style="font-size: 48px"><i class="fa fa-wechat"></i></span>
+			<span class="tooltip-content clearfix" style="margin-bottom:30px">
+				<img src="images/wechat_qrcode.png" />
+				<span class="tooltip-text" style="padding: 70px 0 0 0;margin-left:186px;">微信:KC_SWAGG</span>
+			</span>
+		</a>
+		<a href="http://weibo.com/joytofu" target="_blank" class="tooltip tooltip-effect-5">
+			<span style="font-size: 48px"><i class="fa fa-weibo"></i></span>
+			<span class="tooltip-content clearfix tt-text" style="padding: 40px 0 0 30px; height:100px">
+				微博:KC_swag
+			</span>
+		</a>
+		<a href="javascript:void(0)" class="tooltip tooltip-effect-4">
+			<span style="font-size: 48px"><i class="fa fa-twitter"></i></span>
+			<span class="tooltip-content clearfix tt-text" style="width:180px;padding: 40px 0 0 12px; height:100px;margin-left:-95px">Twitter:@kcswag77</span>
+		</a>
+		<a href="javascript:void(0)" class="tooltip tooltip-effect-1">
+			<span style="font-size: 48px"><i class="fa fa-instagram"></i></span>
+			<span class="tooltip-content clearfix tt-text" style="width:180px;padding: 40px 0 0 11px; height:100px;margin:0 0 25px -92px">instagram:kcswag77</span>
+		</a>
+		</div>
+	</div>
+</div>
+<!--//about-->
+<div class="about-back"></div>
+<!--my skill-->
+<div class="my-skills text-center">
+	<div class="container">
+		<h3>我的技能</h3>
+		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>PHP</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Html 5 / CSS 3</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>javascript/jQuery</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>swift</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>c/c++</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>python</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
+									];
+								for (var i = 1; i <= 7; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 30 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my skill-->
+<div class="my-skill-back"></div>
+<!--education-->
+<div class="education text-center">
+	<div class="container">
+		<div class="edu-info">
+			<h3>教育经历</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-6 edu-grid">
+				<p>2014 - 至今</p><span>Postgraduates</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>MBA工商管理硕士</h3>
+						<h4>西南交通大学</h4>
+					</div>
+					<!--<div class="edu-grid-info">
+						<h5>主修科目：</h5>
+					</div>-->
+				</div>
+			</div>
+			<div class="col-md-6 edu-grid">
+				<p>2007 - 2011</p><span>Graduated</span>
+				<img src="images/arrow.png" alt=""/>
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>电子商务</h3>
+						<h4>广东外语外贸大学</h4>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>工作经历</h3>
+		</div>
+		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="work-grids">
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2014.10 - Now</h3>
+					<div class="work-grid-info">
+						<h4>南海巨牛投资管理咨询有限公司</h4>
+						<h5>PHP攻城狮兼网站编辑、非专业美工、非专业运维</h5>
+						<p>离开了上一家公司，我就来到了这一家。由于公司新成立网络营销部门，我是部门的第一位员工，
+							所以几乎所有基于互联网开展的工作都由我一人去完成。
+							主要负责公司网站、相关业务系统（包括前端和后端）、微信公众号开发；
+							网站日常内容和微信推送内容更新及维护；设计及处理公司活动宣传图册，
+							以及公司网络和公司电脑硬件设备出现问题后的维修。</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2012.7 - 2014.9</h3>
+					<div class="work-grid-info">
+						<h4>佛山翁开尔股份有限公司</h4>
+						<h5>网站开发攻城狮</h5>
+						<p>当学有少成之际，便是跳槽之时。我跳到了另外一家公司，做上了我喜爱的开发工作。主要负责对公司旧网站进行重构，
+							在原有数据模型基础上对业务逻辑模块代码以及前端视图层进行重写；进行公司电商网站的模块开发，包括会员系统、
+							商品管理、购物车等模块。直到有一天，老板突然决定把所有网站换成用.Net开发。那一刻，我知道，我离开这里
+							的日子不远了......
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 w-grid">
+				<div class="work-grid">
+					<h3>2011.11-2012.6</h3>
+					<div class="work-grid-info">
+						<h4>南海区环境运输和城市管理局</h4>
+						<h5>非公务员编制统称政府辅员</h5>
+						<p>刚毕业的菜鸟，略懂C/C++，毫无经验，无IT开发工作栖身之地，只有暂从父母之命来到了政府部门。工作期间，
+							我主要参与数字城管系统的开发及维护工作，统计分析南海各镇街各类城市管理及信访案件，撰写分析报告及总结。
+							在职期间“不务正业”，结合在校时学得的前端知识，自学PHP。正因如此，我从此踏上了web开发的不归路。</p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//work-->
+
+<div class="gallery-section text-center" id="portfolio">
+	<div class="container">
+		<h3>我的项目</h3>
+		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+
+		<div class="gallery-grids">
+			<div class="top-gallery">
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/crm.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4 style="color:saddlebrown">会员管理CRM系统</h4>
+							<a href="https://github.com/joytofu/hkgbf_crm" target="_blank">
+								<div class="button red" style="font-size: 16px">查看代码</div>
+							</a>
+						</div>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/pe.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4 style="color:saddlebrown">私募基金网站</h4>
+							<a href="https://github.com/joytofu/hkgbi_git" target="_blank">
+								<div class="button red" style="font-size: 16px">查看代码</div>
+							</a>
+						</div>
+				</div>
+				<div class="col-md-4 gallery-grid gallery1">
+					<img src="images/proposal.jpg" class="img-responsive" alt="/">
+						<div class="textbox">
+							<h4 style="color:saddlebrown">求婚网站</h4>
+							<a href="https://github.com/joytofu/proposal_git" target="_blank">
+								<div class="button red" style="font-size: 16px">查看代码</div>
+							</a>
+						</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+		</div>
+	</div>
+</div>
+<!--//portfolio-->
+
+<!--contact-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="contact-info text-center">
+			<h3>联系我</h3>
+			<div class="strip text-center"><img src="images/con1.png" alt=" "/></div>
+		</div>
+		<div class="contact-grids">
+			<div class="col-md-5 contact-left">
+				<h3>联系方式</h3>
+				<div class="stripb"></div>
+				<ul>
+					<li>联系电话:18929917788</li>
+					<li>邮箱:<a href="mailto:info@example.com">kcswag@foxmail.com</a></li>
+					<li>QQ:232041821</li>
+					<li>微信:KC_SWAGG</li>
+					<li>网站:<a href="#">www.kcswag.cn</a></li>
+				</ul>
+			</div>
+			<div class="col-md-7 contact-right">
+				<h3>大侠，随便留句话吧！</h3>
+				<div class="stripb"></div>
+				<form method="post" action="sendemail.php">
+					<input type="text" name="company" value="公司" onfocus="this.value='';" onblur="if(this.value==''){this.value='公司';}" required="required">
+					<input type="text" name="email" value="电子邮箱" onfocus="this.value='';" onblur="if(this.value==''){this.value='电子邮箱';}">
+					<textarea type="text" name="content" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '说两句呗...';}" required="required">说两句呗...</textarea>
+					<input type="submit" value="SEND">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<div class="footer-top"></div>
+<!--resume-->
+<div class="resume text-center">
+	<div class="container">
+		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
+		<div class="down"><a href="#">下载简历</a></div>
+	</div>
+</div>
+<!--//resume-->
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2016.Kinson Chow All rights reserved.</p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script>
+	$(function(){
+		$('#wechat').popover({
+			position: 'left',
+			content: "<img src='images/wechat_qrcode.png'/>"
+		});
+</script>
+</body>
+</html>
