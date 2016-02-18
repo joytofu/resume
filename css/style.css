@@ -270,12 +270,19 @@ margin:20px 0 0 0;
 color:#ffffff;
 font-size:16px;
 font-weight:600;
+<<<<<<< HEAD
+=======
 text-transform:uppercase;
+>>>>>>> 5bd994fc3f845e5aec93a011421a14816ea15834
 }
 .circle{
 color:#ffffff;
 font-size:36px;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5bd994fc3f845e5aec93a011421a14816ea15834
 span.circles-number {
   font-size: 36px;
 }
